@@ -1,0 +1,56 @@
+/* White-Label Brand Header */
+.brand-header {
+    padding: 0.5rem 0 1rem 0;
+    border-bottom: 2px solid var(--accent-color, #2563EB);
+    margin-bottom: 1.25rem;
+}
+
+.brand-header h1 {
+    margin: 0;
+    font-size: 1.85rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.brand-header p {
+    margin: 0.25rem 0 0 0;
+    opacity: 0.78;
+    font-size: 0.95rem;
+}
+
+/* Primary Action Buttons */
+div.stButton > button[kind="primary"] {
+    background-color: var(--accent-color, #2563EB) !important;
+    border-color: var(--accent-color, #2563EB) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+div.stButton > button[kind="primary"]:hover {
+    opacity: 0.92;
+}
+
+/* Download Buttons */
+div.stDownloadButton > button {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 0.55rem 1rem !important;
+}
+
+/* Metric Cards */
+[data-testid="stMetric"] {
+    background: rgba(128, 128, 128, 0.07);
+    border: 1px solid rgba(128, 128, 128, 0.18);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+}
+
+/* Extracted Text Box */
+textarea {
+    font-family: "Consolas", "Courier New", monospace !important;
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+    border-radius: 8px !important;
+}
